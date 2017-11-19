@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SXT_TaxiCallAlliance.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>510E9BB71EC59AC800EF450F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>510E9BD31EC59AC900EF450F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>510E9BDE1EC59AC900EF450F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

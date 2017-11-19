@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510E9BBD1EC59AC800EF450F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E9BBC1EC59AC800EF450F /* main.m */; };
+		510E9BC01EC59AC800EF450F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E9BBF1EC59AC800EF450F /* AppDelegate.m */; };
+		510E9BC31EC59AC800EF450F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E9BC21EC59AC800EF450F /* ViewController.m */; };
+		510E9BC61EC59AC800EF450F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510E9BC41EC59AC800EF450F /* Main.storyboard */; };
+		510E9BC91EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 510E9BC71EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodeld */; };
+		510E9BCB1EC59AC800EF450F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510E9BCA1EC59AC800EF450F /* Assets.xcassets */; };
+		510E9BCE1EC59AC800EF450F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510E9BCC1EC59AC800EF450F /* LaunchScreen.storyboard */; };
+		510E9BD91EC59AC900EF450F /* SXT_TaxiCallAllianceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E9BD81EC59AC900EF450F /* SXT_TaxiCallAllianceTests.m */; };
+		510E9BE41EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E9BE31EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.m */; };
+		51BFE19E1ED95B9300CD449F /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BFE19D1ED95B9300CD449F /* PhotoViewController.m */; };
+		51BFE1A91ED96C8900CD449F /* UIView+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BFE1A81ED96C8900CD449F /* UIView+UIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		510E9BD51EC59AC900EF450F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510E9BB01EC59AC800EF450F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510E9BB71EC59AC800EF450F;
+			remoteInfo = SXT_TaxiCallAlliance;
+		};
+		510E9BE01EC59AC900EF450F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510E9BB01EC59AC800EF450F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510E9BB71EC59AC800EF450F;
+			remoteInfo = SXT_TaxiCallAlliance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		510E9BB81EC59AC800EF450F /* SXT_TaxiCallAlliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXT_TaxiCallAlliance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E9BBC1EC59AC800EF450F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		510E9BBE1EC59AC800EF450F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		510E9BBF1EC59AC800EF450F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		510E9BC11EC59AC800EF450F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		510E9BC21EC59AC800EF450F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		510E9BC51EC59AC800EF450F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		510E9BC81EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SXT_TaxiCallAlliance.xcdatamodel; sourceTree = "<group>"; };
+		510E9BCA1EC59AC800EF450F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510E9BCD1EC59AC800EF450F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		510E9BCF1EC59AC800EF450F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510E9BD41EC59AC900EF450F /* SXT_TaxiCallAllianceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXT_TaxiCallAllianceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E9BD81EC59AC900EF450F /* SXT_TaxiCallAllianceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXT_TaxiCallAllianceTests.m; sourceTree = "<group>"; };
+		510E9BDA1EC59AC900EF450F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510E9BDF1EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXT_TaxiCallAllianceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E9BE31EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXT_TaxiCallAllianceUITests.m; sourceTree = "<group>"; };
+		510E9BE51EC59AC900EF450F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BFE19C1ED95B9300CD449F /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		51BFE19D1ED95B9300CD449F /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		51BFE1A71ED96C8900CD449F /* UIView+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView.h"; sourceTree = "<group>"; };
+		51BFE1A81ED96C8900CD449F /* UIView+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510E9BB51EC59AC800EF450F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510E9BD11EC59AC900EF450F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510E9BDC1EC59AC900EF450F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510E9BAF1EC59AC800EF450F = {
+			isa = PBXGroup;
+			children = (
+				510E9BBA1EC59AC800EF450F /* SXT_TaxiCallAlliance */,
+				510E9BD71EC59AC900EF450F /* SXT_TaxiCallAllianceTests */,
+				510E9BE21EC59AC900EF450F /* SXT_TaxiCallAllianceUITests */,
+				510E9BB91EC59AC800EF450F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		510E9BB91EC59AC800EF450F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510E9BB81EC59AC800EF450F /* SXT_TaxiCallAlliance.app */,
+				510E9BD41EC59AC900EF450F /* SXT_TaxiCallAllianceTests.xctest */,
+				510E9BDF1EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510E9BBA1EC59AC800EF450F /* SXT_TaxiCallAlliance */ = {
+			isa = PBXGroup;
+			children = (
+				510E9BBE1EC59AC800EF450F /* AppDelegate.h */,
+				510E9BBF1EC59AC800EF450F /* AppDelegate.m */,
+				510E9BC11EC59AC800EF450F /* ViewController.h */,
+				510E9BC21EC59AC800EF450F /* ViewController.m */,
+				51BFE19C1ED95B9300CD449F /* PhotoViewController.h */,
+				51BFE19D1ED95B9300CD449F /* PhotoViewController.m */,
+				51BFE1A71ED96C8900CD449F /* UIView+UIView.h */,
+				51BFE1A81ED96C8900CD449F /* UIView+UIView.m */,
+				510E9BC41EC59AC800EF450F /* Main.storyboard */,
+				510E9BCA1EC59AC800EF450F /* Assets.xcassets */,
+				510E9BCC1EC59AC800EF450F /* LaunchScreen.storyboard */,
+				510E9BCF1EC59AC800EF450F /* Info.plist */,
+				510E9BC71EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodeld */,
+				510E9BBB1EC59AC800EF450F /* Supporting Files */,
+			);
+			path = SXT_TaxiCallAlliance;
+			sourceTree = "<group>";
+		};
+		510E9BBB1EC59AC800EF450F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				510E9BBC1EC59AC800EF450F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		510E9BD71EC59AC900EF450F /* SXT_TaxiCallAllianceTests */ = {
+			isa = PBXGroup;
+			children = (
+				510E9BD81EC59AC900EF450F /* SXT_TaxiCallAllianceTests.m */,
+				510E9BDA1EC59AC900EF450F /* Info.plist */,
+			);
+			path = SXT_TaxiCallAllianceTests;
+			sourceTree = "<group>";
+		};
+		510E9BE21EC59AC900EF450F /* SXT_TaxiCallAllianceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				510E9BE31EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.m */,
+				510E9BE51EC59AC900EF450F /* Info.plist */,
+			);
+			path = SXT_TaxiCallAllianceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510E9BB71EC59AC800EF450F /* SXT_TaxiCallAlliance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510E9BE81EC59AC900EF450F /* Build configuration list for PBXNativeTarget "SXT_TaxiCallAlliance" */;
+			buildPhases = (
+				510E9BB41EC59AC800EF450F /* Sources */,
+				510E9BB51EC59AC800EF450F /* Frameworks */,
+				510E9BB61EC59AC800EF450F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXT_TaxiCallAlliance;
+			productName = SXT_TaxiCallAlliance;
+			productReference = 510E9BB81EC59AC800EF450F /* SXT_TaxiCallAlliance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		510E9BD31EC59AC900EF450F /* SXT_TaxiCallAllianceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510E9BEB1EC59AC900EF450F /* Build configuration list for PBXNativeTarget "SXT_TaxiCallAllianceTests" */;
+			buildPhases = (
+				510E9BD01EC59AC900EF450F /* Sources */,
+				510E9BD11EC59AC900EF450F /* Frameworks */,
+				510E9BD21EC59AC900EF450F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510E9BD61EC59AC900EF450F /* PBXTargetDependency */,
+			);
+			name = SXT_TaxiCallAllianceTests;
+			productName = SXT_TaxiCallAllianceTests;
+			productReference = 510E9BD41EC59AC900EF450F /* SXT_TaxiCallAllianceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		510E9BDE1EC59AC900EF450F /* SXT_TaxiCallAllianceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510E9BEE1EC59AC900EF450F /* Build configuration list for PBXNativeTarget "SXT_TaxiCallAllianceUITests" */;
+			buildPhases = (
+				510E9BDB1EC59AC900EF450F /* Sources */,
+				510E9BDC1EC59AC900EF450F /* Frameworks */,
+				510E9BDD1EC59AC900EF450F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510E9BE11EC59AC900EF450F /* PBXTargetDependency */,
+			);
+			name = SXT_TaxiCallAllianceUITests;
+			productName = SXT_TaxiCallAllianceUITests;
+			productReference = 510E9BDF1EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510E9BB01EC59AC800EF450F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = PAN;
+				TargetAttributes = {
+					510E9BB71EC59AC800EF450F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					510E9BD31EC59AC900EF450F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 510E9BB71EC59AC800EF450F;
+					};
+					510E9BDE1EC59AC900EF450F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 510E9BB71EC59AC800EF450F;
+					};
+				};
+			};
+			buildConfigurationList = 510E9BB31EC59AC800EF450F /* Build configuration list for PBXProject "SXT_TaxiCallAlliance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510E9BAF1EC59AC800EF450F;
+			productRefGroup = 510E9BB91EC59AC800EF450F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510E9BB71EC59AC800EF450F /* SXT_TaxiCallAlliance */,
+				510E9BD31EC59AC900EF450F /* SXT_TaxiCallAllianceTests */,
+				510E9BDE1EC59AC900EF450F /* SXT_TaxiCallAllianceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510E9BB61EC59AC800EF450F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510E9BCE1EC59AC800EF450F /* LaunchScreen.storyboard in Resources */,
+				510E9BCB1EC59AC800EF450F /* Assets.xcassets in Resources */,
+				510E9BC61EC59AC800EF450F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510E9BD21EC59AC900EF450F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510E9BDD1EC59AC900EF450F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510E9BB41EC59AC800EF450F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510E9BC31EC59AC800EF450F /* ViewController.m in Sources */,
+				510E9BC01EC59AC800EF450F /* AppDelegate.m in Sources */,
+				510E9BC91EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodeld in Sources */,
+				510E9BBD1EC59AC800EF450F /* main.m in Sources */,
+				51BFE19E1ED95B9300CD449F /* PhotoViewController.m in Sources */,
+				51BFE1A91ED96C8900CD449F /* UIView+UIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510E9BD01EC59AC900EF450F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510E9BD91EC59AC900EF450F /* SXT_TaxiCallAllianceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510E9BDB1EC59AC900EF450F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510E9BE41EC59AC900EF450F /* SXT_TaxiCallAllianceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		510E9BD61EC59AC900EF450F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510E9BB71EC59AC800EF450F /* SXT_TaxiCallAlliance */;
+			targetProxy = 510E9BD51EC59AC900EF450F /* PBXContainerItemProxy */;
+		};
+		510E9BE11EC59AC900EF450F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510E9BB71EC59AC800EF450F /* SXT_TaxiCallAlliance */;
+			targetProxy = 510E9BE01EC59AC900EF450F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		510E9BC41EC59AC800EF450F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510E9BC51EC59AC800EF450F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		510E9BCC1EC59AC800EF450F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510E9BCD1EC59AC800EF450F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		510E9BE61EC59AC900EF450F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		510E9BE71EC59AC900EF450F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		510E9BE91EC59AC900EF450F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXT_TaxiCallAlliance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------.SXT-TaxiCallAlliance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		510E9BEA1EC59AC900EF450F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXT_TaxiCallAlliance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------.SXT-TaxiCallAlliance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		510E9BEC1EC59AC900EF450F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SXT_TaxiCallAllianceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------.SXT-TaxiCallAllianceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SXT_TaxiCallAlliance.app/SXT_TaxiCallAlliance";
+			};
+			name = Debug;
+		};
+		510E9BED1EC59AC900EF450F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SXT_TaxiCallAllianceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------.SXT-TaxiCallAllianceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SXT_TaxiCallAlliance.app/SXT_TaxiCallAlliance";
+			};
+			name = Release;
+		};
+		510E9BEF1EC59AC900EF450F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SXT_TaxiCallAllianceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------.SXT-TaxiCallAllianceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SXT_TaxiCallAlliance;
+			};
+			name = Debug;
+		};
+		510E9BF01EC59AC900EF450F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SXT_TaxiCallAllianceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------------.SXT-TaxiCallAllianceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SXT_TaxiCallAlliance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510E9BB31EC59AC800EF450F /* Build configuration list for PBXProject "SXT_TaxiCallAlliance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510E9BE61EC59AC900EF450F /* Debug */,
+				510E9BE71EC59AC900EF450F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510E9BE81EC59AC900EF450F /* Build configuration list for PBXNativeTarget "SXT_TaxiCallAlliance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510E9BE91EC59AC900EF450F /* Debug */,
+				510E9BEA1EC59AC900EF450F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510E9BEB1EC59AC900EF450F /* Build configuration list for PBXNativeTarget "SXT_TaxiCallAllianceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510E9BEC1EC59AC900EF450F /* Debug */,
+				510E9BED1EC59AC900EF450F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510E9BEE1EC59AC900EF450F /* Build configuration list for PBXNativeTarget "SXT_TaxiCallAllianceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510E9BEF1EC59AC900EF450F /* Debug */,
+				510E9BF01EC59AC900EF450F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		510E9BC71EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				510E9BC81EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodel */,
+			);
+			currentVersion = 510E9BC81EC59AC800EF450F /* SXT_TaxiCallAlliance.xcdatamodel */;
+			path = SXT_TaxiCallAlliance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 510E9BB01EC59AC800EF450F /* Project object */;
+}
